@@ -27,7 +27,7 @@ Lately I've been deep into:
 ---
 
 Background
-My path into product came through engineering. I spent years building automation systems before moving into defining what gets built — which means I can read a stack trace and write a user story in the same hour.
+My path into product came through engineering. I spent years building automation systems before moving into defining what gets built, which means I can read a stack trace and write a user story in the same hour.
 Before Resolve, I was a team lead and automation engineer at Softenger India, building out enterprise automation workflows and integrations at scale.
 
 MBA from CSU Chico (Enterprise Information Systems). B.E. in IT from Savitribai Phule Pune University.
