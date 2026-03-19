@@ -9,7 +9,7 @@ I build automation systems and AI-powered tooling for enterprise IT teams. Curre
 Most of my day involves making complex IT processes run without human intervention. That means designing workflows in Resolve, writing Groovy and PowerShell scripts that talk to APIs, and figuring out where AI can replace a decision tree.
 
 Lately I've been deep into:
-- AI-powered resume screening with a Claude API pipeline (Haiku pre-filter → Opus deep eval → HTML report to HR)
+- AI-powered resume screening with a Claude API pipeline (Haiku pre-filter → Opus deep eval → HTML report)
 - Microsoft Graph automation for Entra ID / Azure AD user operations
 - Playwright end-to-end testing for workflow validation
 - A GitHub migration for Resolve's automation activity library
@@ -26,9 +26,9 @@ Lately I've been deep into:
 
 ---
 
-## Background
-
-Before Resolve, I ran Wagdarkar Infotech — an IT consulting practice I started in 2021, managing infrastructure across 2,000+ servers for clients across industries. Before that, I was a team lead and automation engineer at Softenger India, building out EyeShare workflows and integrations.
+Background
+My path into product came through engineering. I spent years building automation systems before moving into defining what gets built — which means I can read a stack trace and write a user story in the same hour.
+Before Resolve, I was a team lead and automation engineer at Softenger India, building out enterprise automation workflows and integrations at scale.
 
 MBA from CSU Chico (Enterprise Information Systems). B.E. in IT from Savitribai Phule Pune University.
 
