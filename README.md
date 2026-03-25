@@ -26,7 +26,8 @@ Lately I've been deep into:
 
 ---
 
-Background
+## Background
+
 My path into product came through engineering. I spent years building automation systems before moving into defining what gets built, which means I can read a stack trace and write a user story in the same hour.
 Before Resolve, I was a team lead and automation engineer at Softenger India, building out enterprise automation workflows and integrations at scale.
 
