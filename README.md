@@ -4,43 +4,83 @@ I build automation systems and AI-powered tooling for enterprise IT teams. Curre
 
 ---
 
-## What I work on
+## Tech Stack
 
-Most of my day involves making complex IT processes run without human intervention. That means designing workflows in Resolve, writing Groovy and PowerShell scripts that talk to APIs, and figuring out where AI can replace a decision tree.
+**Languages & Scripting**
 
-Lately I've been deep into:
-- AI-powered resume screening with a Claude API pipeline (Haiku pre-filter → Opus deep eval → HTML report)
-- Microsoft Graph automation for Entra ID / Azure AD user operations
-- Playwright end-to-end testing for workflow validation
-- A GitHub migration for Resolve's automation activity library
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
+![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat&logo=apachegroovy&logoColor=white)
+
+**Frameworks & APIs**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+**Cloud & Identity**
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![CyberArk](https://img.shields.io/badge/CyberArk-PAM-0066CC?style=flat)
+
+**Data & Observability**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+
+**ITSM & AI**
+
+![ServiceNow](https://img.shields.io/badge/ServiceNow-00C389?style=flat)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-Anthropic-8B5CF6?style=flat)
 
 ---
 
-## Tech I use regularly
+## What I work on
 
-**Automation & Scripting** — Resolve Action Pro, Groovy, PowerShell, Python, C#, Ansible  
-**Cloud & Identity** — Azure, Entra ID, Microsoft Graph API, AWS Secrets Manager, CyberArk  
-**Data & Monitoring** — PostgreSQL, MSSQL, Grafana, Amplitude, Tableau  
-**Dev & CI/CD** — GitHub, Jenkins, Docker, Playwright  
-**ITSM & PM** — ServiceNow, Jira, Confluence, Salesforce
+Most of my day involves making complex IT processes run without human intervention — designing workflows in Resolve, writing scripts that talk to APIs, and figuring out where AI can replace a decision tree.
+
+Lately I've been deep into:
+- AI-powered tooling with Claude API (resume screening, Jira epic breakdown, GenAI pipelines)
+- Enterprise event-driven architecture (webhook relay, RabbitMQ fan-out, async Python)
+- AIOps observability (Prometheus + Grafana, bottleneck detection, Slack alerting)
+- Security audit automation (CyberArk, Azure Key Vault, AWS Secrets Manager)
+
+---
+
+## Featured Projects
+
+| Project | What it does | Stack |
+|---------|-------------|-------|
+| [webhook-relay-service](https://github.com/shubhamwagdarkar/webhook-relay-service) | Async webhook relay — GitHub, PagerDuty, ServiceNow → Slack + PostgreSQL + RabbitMQ | Python · FastAPI · RabbitMQ |
+| [workflow-execution-tracer](https://github.com/shubhamwagdarkar/workflow-execution-tracer) | AIOps observability — step tracing, bottleneck detection, Prometheus + Grafana | Python · FastAPI · Grafana |
+| [jira-epic-breakdown-agent](https://github.com/shubhamwagdarkar/jira-epic-breakdown-agent) | AI CLI — epic → user stories + sprint plan + Jira push via Claude API | Python · Claude · Jira REST |
+| [powershell-credential-vault-checker](https://github.com/shubhamwagdarkar/powershell-credential-vault-checker) | Security audit — Azure Key Vault, CyberArk, AWS Secrets Manager, BeyondTrust | PowerShell · Pester |
+| [enterprise-incident-auto-router](https://github.com/shubhamwagdarkar/enterprise-incident-auto-router) | AIOps — ML-based incident classifier + auto-router for ServiceNow | Python · scikit-learn |
+
+---
+
+## GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=shubhamwagdarkar&show_icons=true&theme=default&hide_border=true&count_private=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhamwagdarkar&layout=compact&theme=default&hide_border=true" height="160" />
+</p>
 
 ---
 
 ## Background
 
-My path into product came through engineering. I spent years building automation systems before moving into defining what gets built, which means I can read a stack trace and write a user story in the same hour.
-Before Resolve, I was a team lead and automation engineer at Softenger India, building out enterprise automation workflows and integrations at scale.
+My path into product came through engineering. I spent years building automation systems before moving into defining what gets built — which means I can read a stack trace and write a user story in the same hour.
+
+Before Resolve, I was a team lead and automation engineer at Softenger India, building enterprise automation workflows and integrations at scale.
 
 MBA from CSU Chico (Enterprise Information Systems). B.E. in IT from Savitribai Phule Pune University.
-
----
-
-## Repos worth looking at
-
-- **[enterprise-incident-auto-router](https://github.com/shubhamwagdarkar/enterprise-incident-auto-router)** — Polls ServiceNow for unassigned incidents, classifies them with keyword + ML routing, auto-assigns via REST API. PostgreSQL audit log.
-- **[workflow-execution-tracer](https://github.com/shubhamwagdarkar/workflow-execution-tracer)** — Instruments distributed workflow executions, measures latency, detects bottlenecks, alerts via Slack, visualizes in Grafana.
-- **[powershell-credential-vault-checker](https://github.com/shubhamwagdarkar/powershell-credential-vault-checker)** — Audits Azure Key Vault, Windows Credential Manager, CyberArk, AWS Secrets Manager, and BeyondTrust. Severity-ranked output with CSV/JSON export.
-- **[rabbitmq-event-monitor](https://github.com/shubhamwagdarkar/rabbitmq-event-monitor)** — Real-time RabbitMQ queue health monitor with dead-letter queue alerting via Slack.
 
 ---
 
