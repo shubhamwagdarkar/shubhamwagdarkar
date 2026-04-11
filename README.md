@@ -39,11 +39,20 @@ I build automation systems and AI-powered tooling for enterprise IT teams. Curre
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-Anthropic-8B5CF6?style=flat)
 
+ **Product & Delivery**
+
+![Roadmapping](https://img.shields.io/badge/Roadmapping-0052CC?style=flat)
+![Agile](https://img.shields.io/badge/Agile-239120?style=flat)
+![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=flat)
+![OKRs & KPIs](https://img.shields.io/badge/OKRs%20%26%20KPIs-E6522C?style=flat)
+![Go-to-Market](https://img.shields.io/badge/Go--to--Market-FF6600?style=flat)
+![User Research](https://img.shields.io/badge/User%20Research-8B5CF6?style=flat)
+
 ---
 
 ## What I work on
 
-Most of my day involves making complex IT processes run without human intervention — designing workflows in Resolve, writing scripts that talk to APIs, and figuring out where AI can replace a decision tree.
+Most of my day involves making complex IT processes run without human intervention designing workflows in Resolve, writing scripts that talk to APIs, and figuring out where AI can replace a decision tree.
 
 Lately I've been deep into:
 - AI-powered tooling with Claude API (resume screening, Jira epic breakdown, GenAI pipelines)
@@ -76,7 +85,7 @@ Lately I've been deep into:
 
 ## Background
 
-My path into product came through engineering. I spent years building automation systems before moving into defining what gets built — which means I can read a stack trace and write a user story in the same hour.
+My path into product came through engineering. I spent years building automation systems before moving into defining what gets built which means I can read a stack trace and write a user story in the same hour.
 
 Before Resolve, I was a team lead and automation engineer at Softenger India, building enterprise automation workflows and integrations at scale.
 
