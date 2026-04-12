@@ -74,15 +74,6 @@ Lately I've been deep into:
 
 ---
 
-## GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=shubhamwagdarkar&show_icons=true&theme=default&hide_border=true&count_private=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubhamwagdarkar&layout=compact&theme=default&hide_border=true" height="160" />
-</p>
-
----
-
 ## Background
 
 My path into product came through engineering. I spent years building automation systems before moving into defining what gets built which means I can read a stack trace and write a user story in the same hour.
