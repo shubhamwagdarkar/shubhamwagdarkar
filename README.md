@@ -84,4 +84,4 @@ MBA from CSU Chico (Enterprise Information Systems). B.E. in IT from Savitribai 
 
 ---
 
-📍 California, USA &nbsp;&nbsp;|&nbsp;&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/shubhamwagdarkar)
+📍 New York, USA &nbsp;&nbsp;|&nbsp;&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/shubhamwagdarkar)
