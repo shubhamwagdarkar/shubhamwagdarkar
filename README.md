@@ -20,6 +20,7 @@ I build automation systems and AI-powered tooling for enterprise IT teams. Curre
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![.NET 8](https://img.shields.io/badge/.NET%208-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 **Cloud & Identity**
 
@@ -40,6 +41,9 @@ I build automation systems and AI-powered tooling for enterprise IT teams. Curre
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
 ![PagerDuty](https://img.shields.io/badge/PagerDuty-06AC38?style=flat&logo=pagerduty&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-Anthropic-8B5CF6?style=flat)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=flat)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3A5E?style=flat)
+![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-0066CC?style=flat)
 
 **Product & Delivery**
 
@@ -57,11 +61,12 @@ I build automation systems and AI-powered tooling for enterprise IT teams. Curre
 Most of my day involves making complex IT processes run without human intervention — designing workflows in Resolve, writing scripts that talk to APIs, and figuring out where AI can replace a decision tree.
 
 Lately I've been deep into:
-- API gateway patterns unifying PagerDuty, Jira, and Slack for incident response workflows
-- AI-powered tooling with Claude API (RAG runbook assistants, Jira epic breakdown, GenAI pipelines)
-- Enterprise event-driven architecture (webhook relay, RabbitMQ fan-out, async Python)
-- AIOps observability (DORA metrics, bottleneck detection, Prometheus + Grafana)
-- Security audit automation (CyberArk, Azure Key Vault, AWS Secrets Manager)
+- **Multi-agent AI systems** with LangGraph — stateful pipelines, conditional routing, human-in-the-loop controls
+- **LLM observability & LLMOps** with LangSmith — production tracing, custom evaluators, prompt A/B testing
+- **MCP server development** — exposing enterprise tools as Claude agent-compatible tool surfaces
+- **Event-driven architecture** — distributed task scheduling with RabbitMQ and .NET 8
+- **ML-based anomaly detection** — Isolation Forest models for log time-series and latency analysis
+- **Security audit automation** — CyberArk, Azure Key Vault, AWS Secrets Manager
 
 ---
 
@@ -69,6 +74,12 @@ Lately I've been deep into:
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
+| [langgraph-incident-responder](https://github.com/shubhamwagdarkar/langgraph-incident-responder) | Stateful multi-agent incident responder — four nodes, conditional routing, human-in-the-loop | Python · LangGraph |
+| [langsmith-ops-tracer](https://github.com/shubhamwagdarkar/langsmith-ops-tracer) | Production LLM observability — auto-tracing, custom evaluators, prompt A/B testing CLI | Python · LangSmith |
+| [mcp-enterprise-connector](https://github.com/shubhamwagdarkar/mcp-enterprise-connector) | MCP server exposing enterprise tools as Claude agent tools | Python · MCP |
+| [distributed-task-scheduler](https://github.com/shubhamwagdarkar/distributed-task-scheduler) | Job scheduler with RabbitMQ fan-out and PostgreSQL state tracking | C# · .NET 8 · RabbitMQ |
+| [log-anomaly-detector](https://github.com/shubhamwagdarkar/log-anomaly-detector) | Detects anomalous time windows in application logs using Isolation Forest | Python · scikit-learn |
+| [csharp-api-integration-toolkit](https://github.com/shubhamwagdarkar/csharp-api-integration-toolkit) | Typed clients for ServiceNow, Jira, and PagerDuty with retry and caching | C# · .NET 8 |
 | [incident-api-gateway](https://github.com/shubhamwagdarkar/incident-api-gateway) | Async REST gateway unifying PagerDuty, Jira, and Slack — Redis caching, cross-system actions | Python · FastAPI · Redis |
 | [rag-runbook-assistant](https://github.com/shubhamwagdarkar/rag-runbook-assistant) | RAG chatbot over internal runbooks — FAISS semantic search + Claude for cited answers | Python · Claude · FAISS |
 | [webhook-relay-service](https://github.com/shubhamwagdarkar/webhook-relay-service) | Async webhook relay — GitHub, PagerDuty, ServiceNow → Slack + PostgreSQL + RabbitMQ | Python · FastAPI · RabbitMQ |
